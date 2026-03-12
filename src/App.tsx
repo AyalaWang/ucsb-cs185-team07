@@ -98,6 +98,81 @@ function App() {
                 </a>
               </ul>
             </article>
+            <article className="log-card" style={{ animationDelay: "320ms" }}>
+              <h3>GR6 — Medium-Fi Figma Prototype</h3>
+              <ul>
+                <a
+                  href="https://docs.google.com/presentation/d/1o7ppEgYzCGKg5QnGRBqFQD0NL2mugsxjANso_2oVB6w/edit?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Link
+                </a>
+              </ul>
+            </article>
+            <article className="log-card" style={{ animationDelay: "320ms" }}>
+              <h3>GR7 — Heuristic Evaluation (Individual Assignment) </h3>
+              <ul>
+                <a
+                  href="/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Link
+                </a>
+              </ul>
+            </article>
+            <article className="log-card" style={{ animationDelay: "320ms" }}>
+              <h3>GR8 — Hi-fi Figma prototype</h3>
+              <ul>
+                <a
+                  href="https://docs.google.com/presentation/d/19wWdvqQielsveo-0APxbmNmAQ94Xf-urn4ND3287K9A/edit?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Link
+                </a>
+              </ul>
+            </article>
+            <article className="log-card" style={{ animationDelay: "320ms" }}>
+              <h3>GR9 — Poster, Pitch & Video of the Figma hi-fi prototype</h3>
+              <ul>
+                <a
+                  href="https://docs.google.com/presentation/d/1atLV0jFbv3xlDoRVvcuGJL5kzx0XCHs-w5FnWBiNhUQ/edit?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Pitch Link
+                </a>
+              </ul>
+              <ul>
+                <a
+                  href="https://docs.google.com/document/d/1NZFs2nbqZfhhM1WTPi6pAD6XnLxB2SVoPHv8txemM0s/edit?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Pitch Script Link
+                </a>
+              </ul>
+              <ul>
+                <a
+                  href="https://docs.google.com/presentation/d/1kF8-_RbP4fpK3zc0qIGL5gahetu0xKc--MizYMqNmDA/edit?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Poster Link
+                </a>
+              </ul>
+              <ul>
+                <a
+                  href="https://docs.google.com/presentation/d/1kF8-_RbP4fpK3zc0qIGL5gahetu0xKc--MizYMqNmDA/edit?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Video Link
+                </a>
+              </ul>
+            </article>
           </div>
         </section>
 
