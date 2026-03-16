@@ -22,6 +22,7 @@ import anthonyWongImage from "./assets/anthony_wong.png?url";
 import ayalaWangImage from "./assets/ayala_wang.png?url";
 import junjieLiuImage from "./assets/junjie_liu.jpg?url";
 import logoImage from "./assets/logo.png?url";
+import finalreportpdf from "./assets/finalreport.pdf?url";
 
 type ResourceLink = {
   label: string;
@@ -68,37 +69,50 @@ const deliverables: Deliverable[] = [
   {
     id: "GR1",
     title: "Needfinding",
-    summary: "Initial interviews, problem discovery, and early opportunity framing.",
+    summary:
+      "Initial interviews, problem discovery, and early opportunity framing.",
     resources: [
       { label: "PDF", href: gr1Pdf },
       { label: "PPTX", href: gr1Pptx },
-      { label: "Google Slides", href: googleSlides("1nBjcG8Fekon2OWGzjiJQ__aN9x5BAtol6B7MVjcqcCs") },
+      {
+        label: "Google Slides",
+        href: googleSlides("1nBjcG8Fekon2OWGzjiJQ__aN9x5BAtol6B7MVjcqcCs"),
+      },
     ],
   },
   {
     id: "GR2",
     title: "Additional Needfinding, POVs, HMWs, and Experience Prototypes",
-    summary: "Research synthesis, framing statements, brainstorms, and prototype experiments.",
+    summary:
+      "Research synthesis, framing statements, brainstorms, and prototype experiments.",
     resources: [
       { label: "PDF", href: gr2Pdf },
       { label: "PPTX", href: gr2Pptx },
-      { label: "Google Slides", href: googleSlides("1wbPoS7rR2Bed9Iitcimq1TYqcIEhBZ9pCC2XE6FtaH8") },
+      {
+        label: "Google Slides",
+        href: googleSlides("1wbPoS7rR2Bed9Iitcimq1TYqcIEhBZ9pCC2XE6FtaH8"),
+      },
     ],
   },
   {
     id: "GR3",
     title: "Project Website",
-    summary: "Responsive course website for project storytelling, deliverables, and media.",
+    summary:
+      "Responsive course website for project storytelling, deliverables, and media.",
     resources: [{ label: "Live website", href: "./" }],
   },
   {
     id: "GR4",
     title: "Concept Video",
-    summary: "Concept framing video with streaming, embedding, and downloadable access path.",
+    summary:
+      "Concept framing video with streaming, embedding, and downloadable access path.",
     resources: [
       { label: "PDF", href: gr4Pdf },
       { label: "PPTX", href: gr4Pptx },
-      { label: "Google Slides", href: googleSlides("1gaej_uOVAdJrvRsjxhEvXjTjkVRdPpfx9r8Ud2b1F6M") },
+      {
+        label: "Google Slides",
+        href: googleSlides("1gaej_uOVAdJrvRsjxhEvXjTjkVRdPpfx9r8Ud2b1F6M"),
+      },
       { label: "YouTube", href: youtubeWatch("S2MIHdP-X6g") },
       { label: "Video download", href: finalVideoMov, download: true },
     ],
@@ -107,26 +121,37 @@ const deliverables: Deliverable[] = [
   {
     id: "GR5",
     title: "Sketching, Low-Fi Prototyping, and Usability Testing",
-    summary: "Sketch exploration, low-fidelity prototypes, and early usability findings.",
+    summary:
+      "Sketch exploration, low-fidelity prototypes, and early usability findings.",
     resources: [
       { label: "PDF", href: gr5Pdf },
       { label: "PPTX", href: gr5Pptx },
-      { label: "Google Slides", href: googleSlides("1tbj_LXBQgGJs8Qx35_h6vt9mAH73oC7VkW2u3V8dRwk") },
+      {
+        label: "Google Slides",
+        href: googleSlides("1tbj_LXBQgGJs8Qx35_h6vt9mAH73oC7VkW2u3V8dRwk"),
+      },
     ],
   },
   {
     id: "GR6",
     title: "Interactive Medium-Fi Prototype",
-    summary: "Medium-fidelity prototype, walkthrough deck, and README documentation.",
+    summary:
+      "Medium-fidelity prototype, walkthrough deck, and README documentation.",
     resources: [
       { label: "PDF", href: gr6Pdf },
       { label: "PPTX", href: gr6Pptx },
-      { label: "Google Slides", href: googleSlides("1o7ppEgYzCGKg5QnGRBqFQD0NL2mugsxjANso_2oVB6w") },
+      {
+        label: "Google Slides",
+        href: googleSlides("1o7ppEgYzCGKg5QnGRBqFQD0NL2mugsxjANso_2oVB6w"),
+      },
       {
         label: "Figma prototype",
         href: "https://www.figma.com/proto/opkcW6BeK0JjkM0HPgC6SX/Team-09-Figma?node-id=40-245&p=f&t=qDgxZdQ5bEcnvSJN-1&scaling=contain&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=40%3A245",
       },
-      { label: "README", href: googleDoc("17wcCk6OcoAjR2aXT5ny_Kp05eYBQzVGj3tCwxZFsFl4") },
+      {
+        label: "README",
+        href: googleDoc("17wcCk6OcoAjR2aXT5ny_Kp05eYBQzVGj3tCwxZFsFl4"),
+      },
       { label: "README (PDF)", href: reasonLabReadmePdf },
     ],
   },
@@ -139,29 +164,46 @@ const deliverables: Deliverable[] = [
   {
     id: "GR8",
     title: "Interactive High-Fi Prototype",
-    summary: "High-fidelity prototype, presentation deck, and final README handoff.",
+    summary:
+      "High-fidelity prototype, presentation deck, and final README handoff.",
     resources: [
       { label: "PDF", href: gr8Pdf },
       { label: "PPTX", href: gr8Pptx },
-      { label: "Google Slides", href: googleSlides("19wWdvqQielsveo-0APxbmNmAQ94Xf-urn4ND3287K9A") },
+      {
+        label: "Google Slides",
+        href: googleSlides("19wWdvqQielsveo-0APxbmNmAQ94Xf-urn4ND3287K9A"),
+      },
       {
         label: "Figma prototype",
         href: "https://www.figma.com/proto/opkcW6BeK0JjkM0HPgC6SX/Team-09-Figma?node-id=476-100&t=eYk5kIDy9YIGXuEw-1&scaling=scale-down&content-scaling=fixed&page-id=358%3A210&starting-point-node-id=476%3A100",
       },
-      { label: "README", href: googleDoc("17wcCk6OcoAjR2aXT5ny_Kp05eYBQzVGj3tCwxZFsFl4") },
+      {
+        label: "README",
+        href: googleDoc("17wcCk6OcoAjR2aXT5ny_Kp05eYBQzVGj3tCwxZFsFl4"),
+      },
       { label: "README (PDF)", href: reasonLabReadmePdf },
     ],
   },
   {
     id: "GR9",
     title: "Poster, Pitch, and Demo Video",
-    summary: "Final storytelling assets for the pitch, poster, and recorded demo.",
+    summary:
+      "Final storytelling assets for the pitch, poster, and recorded demo.",
     resources: [
-      { label: "Pitch Slides", href: googleSlides("1atLV0jFbv3xlDoRVvcuGJL5kzx0XCHs-w5FnWBiNhUQ") },
+      {
+        label: "Pitch Slides",
+        href: googleSlides("1atLV0jFbv3xlDoRVvcuGJL5kzx0XCHs-w5FnWBiNhUQ"),
+      },
       { label: "Pitch Slides (PDF)", href: gr9PitchPdf },
-      { label: "Pitch script", href: googleDoc("1NZFs2nbqZfhhM1WTPi6pAD6XnLxB2SVoPHv8txemM0s") },
+      {
+        label: "Pitch script",
+        href: googleDoc("1NZFs2nbqZfhhM1WTPi6pAD6XnLxB2SVoPHv8txemM0s"),
+      },
       { label: "Pitch Script (PDF)", href: gr9PitchScriptPdf },
-      { label: "Poster", href: googleSlides("1kF8-_RbP4fpK3zc0qIGL5gahetu0xKc--MizYMqNmDA") },
+      {
+        label: "Poster",
+        href: googleSlides("1kF8-_RbP4fpK3zc0qIGL5gahetu0xKc--MizYMqNmDA"),
+      },
       { label: "Poster (PDF)", href: gr9PosterPdf },
       { label: "Video link", href: youtubeWatch("R0fqb1uiPHE") },
       { label: "Video download", href: gr9VideoMp4, download: true },
@@ -171,10 +213,8 @@ const deliverables: Deliverable[] = [
   {
     id: "GR10",
     title: "Final Report",
-    summary: "Final written report in Google Docs plus a downloadable PDF export.",
-    resources: [
-      { label: "Google Doc", href: googleDoc("1uircCp_UmHFFdJD6MgpU0qMGmSPjrrjZIrxkdnEi8Wg") },
-    ],
+    summary: "Final written report in PDF export.",
+    resources: [{ label: "PDF", href: finalreportpdf, download: true }],
   },
 ];
 
@@ -221,7 +261,10 @@ function App() {
   return (
     <div className="page">
       {showIntro ? (
-        <div className={`intro-overlay${introExiting ? " is-exiting" : ""}`} aria-hidden="true">
+        <div
+          className={`intro-overlay${introExiting ? " is-exiting" : ""}`}
+          aria-hidden="true"
+        >
           <div className="intro-logo-shell">
             <img className="intro-logo" src={logoImage} alt="" />
           </div>
@@ -229,7 +272,11 @@ function App() {
       ) : null}
 
       <header className="topbar">
-        <button className="topbar-brand" type="button" onClick={() => setActiveTab("home")}>
+        <button
+          className="topbar-brand"
+          type="button"
+          onClick={() => setActiveTab("home")}
+        >
           <span className="topbar-copy">
             <strong>Reason Lab</strong>
             <span>Team 07</span>
@@ -261,13 +308,15 @@ function App() {
                   <div>
                     <p className="eyebrow">Team 07 - UCSB CS185</p>
                     <h1>Reason Lab</h1>
-                    <p className="hero-tagline">Better learning begins with you.</p>
+                    <p className="hero-tagline">
+                      Better learning begins with you.
+                    </p>
                   </div>
                 </div>
 
                 <p className="value-prop">
-                  An AI learning companion that helps students turn confusion into clear,
-                  supportive next steps.
+                  An AI learning companion that helps students turn confusion
+                  into clear, supportive next steps.
                 </p>
 
                 <div className="hero-nav">
@@ -308,43 +357,45 @@ function App() {
                 <p className="section-kicker">About the project</p>
                 <h2>Our App</h2>
                 <p>
-                  Reason Lab is a mobile learning app for learners working through
-                  difficult material. It is designed for people who may be leaning too
-                  heavily on AI shortcuts and need support that strengthens reasoning
-                  instead of bypassing it.
+                  Reason Lab is a mobile learning app for learners working
+                  through difficult material. It is designed for people who may
+                  be leaning too heavily on AI shortcuts and need support that
+                  strengthens reasoning instead of bypassing it.
                 </p>
                 <p>
-                  Instead of giving instant answers, Reason Lab requires students to
-                  attempt a problem before receiving help. The system responds with
-                  adaptive hints, structured feedback, and visual progress cues so that
-                  users build durable conceptual understanding through active learning.
+                  Instead of giving instant answers, Reason Lab requires
+                  students to attempt a problem before receiving help. The
+                  system responds with adaptive hints, structured feedback, and
+                  visual progress cues so that users build durable conceptual
+                  understanding through active learning.
                 </p>
 
                 <div className="summary-detail-grid">
                   <div className="summary-detail">
                     <h3>Who it is for</h3>
                     <p>
-                      Students who are stuck on homework, want a hint instead of a full
-                      solution, or want to turn class materials into a guided study
-                      structure.
+                      Students who are stuck on homework, want a hint instead of
+                      a full solution, or want to turn class materials into a
+                      guided study structure.
                     </p>
                   </div>
 
                   <div className="summary-detail">
                     <h3>How it is used</h3>
                     <p>
-                      Users move through guided problem-solving flows, review hint
-                      responses, adjust difficulty, import materials, and track
-                      progress through a structured mobile experience.
+                      Users move through guided problem-solving flows, review
+                      hint responses, adjust difficulty, import materials, and
+                      track progress through a structured mobile experience.
                     </p>
                   </div>
 
                   <div className="summary-detail">
                     <h3>What users can do</h3>
                     <p>
-                      Attempt a problem, unlock incremental hints, adjust difficulty,
-                      import materials for guided assistance, generate study guides, and
-                      monitor progress toward receiving help.
+                      Attempt a problem, unlock incremental hints, adjust
+                      difficulty, import materials for guided assistance,
+                      generate study guides, and monitor progress toward
+                      receiving help.
                     </p>
                   </div>
                 </div>
@@ -389,14 +440,23 @@ function App() {
 
                   {deliverable.videoSrc ? (
                     <div className="deliverable-video-frame">
-                      <video className="deliverable-video" controls preload="metadata">
-                        <source src={deliverable.videoSrc} type="video/quicktime" />
+                      <video
+                        className="deliverable-video"
+                        controls
+                        preload="metadata"
+                      >
+                        <source
+                          src={deliverable.videoSrc}
+                          type="video/quicktime"
+                        />
                         Your browser does not support embedded video playback.
                       </video>
                     </div>
                   ) : null}
 
-                  {deliverable.note ? <p className="deliverable-note">{deliverable.note}</p> : null}
+                  {deliverable.note ? (
+                    <p className="deliverable-note">{deliverable.note}</p>
+                  ) : null}
 
                   <div className="resource-tab-grid">
                     {deliverable.resources.map((resource, resourceIndex) => (
@@ -410,10 +470,16 @@ function App() {
                         }`}
                         href={resource.href}
                         target={
-                          !resource.download && shouldOpenInNewTab(resource.href) ? "_blank" : undefined
+                          !resource.download &&
+                          shouldOpenInNewTab(resource.href)
+                            ? "_blank"
+                            : undefined
                         }
                         rel={
-                          !resource.download && shouldOpenInNewTab(resource.href) ? "noreferrer" : undefined
+                          !resource.download &&
+                          shouldOpenInNewTab(resource.href)
+                            ? "noreferrer"
+                            : undefined
                         }
                         download={resource.download ? "" : undefined}
                       >
@@ -436,7 +502,11 @@ function App() {
                 {teamMembers.map((member) => (
                   <div className="team-member" key={member.name}>
                     <div className="team-image-frame">
-                      <img className="team-image" src={member.image} alt={member.name} />
+                      <img
+                        className="team-image"
+                        src={member.image}
+                        alt={member.name}
+                      />
                     </div>
                     <h3>{member.name}</h3>
                     <p className="team-role">{member.role}</p>
@@ -450,7 +520,11 @@ function App() {
 
       <footer className="footer">
         <p>Reason Lab - Team 07 - UCSB CS185</p>
-        <button className="footer-link" type="button" onClick={() => setActiveTab("home")}>
+        <button
+          className="footer-link"
+          type="button"
+          onClick={() => setActiveTab("home")}
+        >
           Back to Home
         </button>
       </footer>
